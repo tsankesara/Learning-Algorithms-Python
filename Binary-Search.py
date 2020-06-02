@@ -22,6 +22,7 @@ def binary_search_ite(data, target):
         else:
             low = mid + 1
     return False
+
 # Recursive Binary Search ()
 def binary_search_rec(data, target, low, high):
     if low > high:
